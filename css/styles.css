@@ -79,12 +79,21 @@ height: 24px;
     border-radius: 30px;
     font-size: 0.7em;
   }
-.main-menu{
-  display: flex;
-}
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-svg{
+    display: block;
+    width: 2.5em;
+    height: 2.5em;
+  }
 
 }
 @media (min-width: 950px) {
+  .nav-svg {
+    display: none; 
+  }
   .wide-flex {
     display: flex;
     justify-content: center;

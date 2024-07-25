@@ -7,3 +7,184 @@
   --green: #8BC34A;
   --white: #FAFAFA;
 }
+
+
+span {
+  color: var(--hot-pink);
+}
+
+@media (max-width: 950px) {
+  .hero {
+    background-image: url('../img/crowd-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: 2em 'Roboto', sans-serif;
+  }
+.nav-svg {
+    display: block; 
+}
+.nav-svg {
+width: 24px;
+height: 24px; 
+}
+  .navigation {
+    display: none;
+    color: var(--white);
+    font: 1.5em 'Roboto', sans-serif;
+    text-decoration: none;
+  }
+  .drop-down {
+    display: none;
+  }
+  .inner-container {
+    padding: 20px;
+    background-color: var(--dk-grey);
+  }
+  .flex-container h1 {
+    color: var(--white);
+    font: 34px 'Roboto', sans-serif;
+    margin-right: -60px;
+    
+  }
+  .content-box {
+    background-color: var(--white);
+    padding: 20px;
+    width: 18em;
+    height: 17em;
+    text-align: center;
+  }
+  .content-box h2 {
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  .content-box p {
+    font-size: 0.7em;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .register-btn {
+    background: linear-gradient(to right, var(--hot-pink), var(--yellow));
+    color: var(--white);
+    padding: 15px 60px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10%;
+    border-radius: 30px;
+    font-size: 0.7em;
+  }
+.main-menu{
+  display: flex;
+}
+
+}
+@media (min-width: 950px) {
+  .wide-flex {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .main-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .main-menu > li {
+    margin: 0 7em; 
+    text-align: center; 
+  }
+  
+  .navigation {
+    visibility: visible;
+    color: var(--white);
+    font: 1.5em 'Roboto', sans-serif;
+    text-decoration: none;
+  }
+  
+  .inner-container {
+    padding: 20px;
+    background-color: var(--dk-grey);
+  }
+  .flex-container h1 {
+    color: var(--white);
+    font: 34px 'Roboto', sans-serif;
+    margin-right: -60px;
+    
+  }
+  .navigation svg {
+    margin-left: 8px; 
+    transform: translateY(-2px);
+    width: 14px; 
+    height: 14px; 
+  }  
+  .drop-down {
+    position: absolute;
+    visibility: hidden;
+    background-color: var(--dk-grey);
+    padding: 10px; 
+    list-style: none; 
+    margin: 0;
+    font: 20px 'Roboto', sans-serif;
+    z-index: 1000;
+  }
+  .drop-down li {
+    padding: 1em 8em 1em 1em;
+    color: var(--white); 
+    text-align: left;
+  }
+  
+  
+  .main-menu > li:hover > .drop-down {
+    visibility: visible;
+  }
+  
+  .hero {
+    background-image: url('../img/crowd-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: 2em 'Roboto', sans-serif;
+  }
+  
+  .content-box {
+    background-color: var(--white);
+    padding: 20px;
+    width: 18em;
+    height: 17em;
+    text-align: center;
+  }
+  .content-box h2 {
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  .content-box p {
+    font-size: 0.7em;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .register-btn {
+    background: linear-gradient(to right, var(--hot-pink), var(--yellow));
+    color: var(--white);
+    padding: 15px 60px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10%;
+    border-radius: 30px;
+    font-size: 0.7em;
+  }
+  
+}
+
